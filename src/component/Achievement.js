@@ -2,6 +2,7 @@ import React from 'react'
 import Timeline from './Timeline'
 import { Link } from 'react-router-dom'
 import Animated from '../Animated'
+import Goal from "../goal.gif"
 
 function Achievement() {
     let details=
@@ -29,7 +30,7 @@ function Achievement() {
     return (
         <>
         <Animated>
-            <div ><h4 className="text-center mt-4">Acheivements</h4></div>
+            <div className="top"><h4 className="text-center mt-4 fs-1"><img className="size-2" src={Goal}/>Acheivements</h4></div>
             <div class="container achieve">
             <div className="page"><Link className="btn btn-dark rounded-circle ml-4" to={"/skill"}><i class="fa fa-arrow-left" aria-hidden="true"></i></Link></div>
                 <div class="main-timeline">

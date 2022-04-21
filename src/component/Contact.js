@@ -2,6 +2,9 @@ import React, { useRef, useState } from 'react'
 import Animated from '../Animated'
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
+import github from "../github.png";
+import Call from "../call.gif";
+import link from "../link.gif"
 
 const Result=()=>{
    return(
@@ -29,7 +32,7 @@ function Contact() {
       <div className="container contact">
         <div className="head">
           <h5 className="subheading">Get in touch</h5>
-          <h1 className="main-head">Contact</h1>
+          <h1 className="main-head"><img className="size-2" src={Call} />Contact</h1>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <div class="row">
@@ -51,7 +54,8 @@ function Contact() {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 right">
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
-              <p><i class="fa fa-envelope" aria-hidden="true"></i>-neelakandanguhan@gmail.com</p>
+              <p><img style={{width:"20px", height:"20px"}} src={link}/><a href="https://github.com/GuhanNeelakandan" target="_blank"><img className="link" src={github}/></a></p>
+              <p><i class="fa fa-envelope bounce-1" aria-hidden="true"></i>-neelakandanguhan@gmail.com</p>
               <p><i class="fa fa-phone" aria-hidden="true"></i>  +91 979*****35</p>
               <p><i class="fa fa-map-marker" aria-hidden="true"></i> Thoraipakkam,Chennai-600097</p>
             </div>

@@ -7,7 +7,7 @@ import code from "../coding.png"
 import github from "../github.png"
 import python from "../python.png"
 import photoshop from "../photoshop.png"
-import skill from "../skill.png"
+import skill from "../settings.gif"
 import sql from "../sql.png"
 import mongo from "../mongo.png"
 import react from "../react.png"
@@ -19,7 +19,7 @@ function Skill() {
     <Animated>
       <div className="container heading">
         <div className="main-skill">
-          <h1 className="text-center"><img className="size" src={skill} />Skill</h1>
+          <h1 className="text-center"><img className="size-2" src={skill} />Skill</h1>
 
           <p className="text-left m-4 bg-dark bg-transparent">
             I am a full stack web developer having experience of building web applications with (JavaScript/ ReactJs / Nodejs ).These include specific technical skills that I have developed by designing my own websites.I also have excellent written and verbal communication skills along with great leadership quality.
