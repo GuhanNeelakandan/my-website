@@ -27,7 +27,7 @@ function Navbar() {
                             <Link className="nav-link" to={"skill"}>Skill</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Project</a>
+                            <Link className="nav-link" to={"project"}>Project</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to={"/achieve"}>Achievement</Link>

@@ -192,7 +192,7 @@ canvas{
  transform: scale(1.1);
  background: #fff;
 }
-@media only screen and (max-width:414px){
+@media only screen and (max-width:488px){
   .animea{
     flex-wrap: wrap;
   }
@@ -515,4 +515,11 @@ canvas{
 .page{
   display: flex;
   align-items: center;
+}
+/*************************Project***************************************/
+.project{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: cursive;
 }
