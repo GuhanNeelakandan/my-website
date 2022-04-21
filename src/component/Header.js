@@ -19,7 +19,7 @@ function Header() {
             backSpeed={60}
             loop />
           <a href={Resume} target="_blank" className="btn-main-offer">Get Resume <img className='icon' src={Download} style={{width:"20px", height:"20px"}}/> </a>
-          <Link class="btn btn-dark rounded-circle mt-4 btns" to={"/about"} role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+          <Link class="btn btn-dark  mt-4 btns" to={"/about"} role="button">About me  <i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
         </div>
       </div>
     </Animated>
