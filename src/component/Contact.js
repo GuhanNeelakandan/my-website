@@ -56,7 +56,7 @@ function Contact() {
               <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
               <p><img style={{width:"20px", height:"20px"}} src={link}/><a href="https://github.com/GuhanNeelakandan" target="_blank"><img className="link" src={github}/></a></p>
               <p><i class="fa fa-envelope bounce-1" aria-hidden="true"></i>-neelakandanguhan@gmail.com</p>
-              <p><i class="fa fa-phone" aria-hidden="true"></i>  +91 979*****35</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i>  +91 9790850035</p>
               <p><i class="fa fa-map-marker" aria-hidden="true"></i> Thoraipakkam,Chennai-600097</p>
             </div>
             <div><Link className="btn btn-dark btn-sm-3" to={"/achieve"}><i class="fa fa-arrow-left" aria-hidden="true"></i></Link></div>

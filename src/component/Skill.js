@@ -29,7 +29,7 @@ function Skill() {
         <div className="d-flex justify-content-between">
             <Link class="btn btn-dark rounded-circle mt-4" to={"/about"} role="button"><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
             <img className="skills" src={code} />
-            <Link class="btn btn-dark rounded-circle mt-4" to={"/achieve"} role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+            <Link class="btn btn-dark rounded-circle mt-4" to={"/project"} role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
           </div>
           
         </div>

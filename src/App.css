@@ -17,11 +17,13 @@ body{
   position: sticky;
    top: 0;
    z-index: 100;
+   background-color: rgb(170, 169, 169,0.3);
 }
 nav a.nav-link{
   font-weight: 500;
   letter-spacing: 0.0378rem;
   cursor: pointer;
+  color: black;
 }
 nav ul li{
   text-transform: uppercase;
@@ -29,7 +31,7 @@ nav ul li{
 .navbar-nav>li>a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: #fff !important;
+  color: rgb(0, 0, 0) !important;
 }
 .navbar-brand{
   max-width:17.25rem;
@@ -119,6 +121,10 @@ canvas{
 }
 .container{
   display: flex;
+}
+.words{
+  word-wrap: normal;
+  display: inline-block;
 }
 .about{
   background-color: rgba(255, 255, 255, 0.3);
@@ -520,6 +526,26 @@ canvas{
 .project{
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 30px;
-  margin-top: 20px;
   font-family: cursive;
+  display: block;
+}
+.neosmile{
+  border-radius: 20px;
+}
+.neosmile:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0,0.3);
+
+}
+.project-git{
+  width:40px;
+  height: 40px;
+  cursor: pointer;
+}
+.project-git:hover{
+  transform: scale(1.1);
+}
+.next-page{
+  display: flex;
+  align-items: center;
 }

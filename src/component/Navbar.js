@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top nav" role="navigation">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top nav" role="navigation">
             <div className="container">
                 {/* <a className="navbar-brand" href="#"><img classname="logo" src={Logo}/></a> */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
