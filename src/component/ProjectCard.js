@@ -5,7 +5,7 @@ import website from "../website.png"
 function ProjectCard(props) {
     return (
         <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-            <div class="card-body">
+            <div class="card-body box">
                 <img className="img-fluid mb-4 neosmile" src={props.card.image} />
                 <h5 class="card-title"><strong>{props.card.title}</strong></h5>
                 <p class="card-text">{props.card.description}</p>

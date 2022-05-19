@@ -1,7 +1,8 @@
 import React from 'react'
-import Neosmile from "../Neosmile.jpg"
+import Neosmile from "../neosmile.png"
 import ProjectCard from './ProjectCard'
-import NeoMangement from "../NeoMangement.png"
+import NeoMangement from "../NeoManagement.png"
+import Todo from "../Todolist.png"
 import { Link } from 'react-router-dom'
 import Animated from '../Animated'
 
@@ -25,6 +26,16 @@ function Project() {
             tools: "MongoDB,Express,React,Nodejs-(MERN)",
             backend: true
         },
+        {
+            image: Todo,
+            title: "Todo App",
+            description: "Just Anothoer Interactive,Nice beautiful and small to-do application (MERN),Does Everything",
+            gitLink: "https://github.com/GuhanNeelakandan/Todo_frontend",
+            webLink: "https://todo-createdby-guhan.netlify.app/",
+            weblink2: "https://github.com/GuhanNeelakandan/Todo_backend",
+            tools: "MongoDB,Express,React,Nodejs-(MERN)",
+            backend: true
+        }
     ]
     return (
         <Animated>
@@ -34,7 +45,7 @@ function Project() {
             <div className="container project">
                 <div className="next-page">
                     <Link className="btn btn-dark rounded-circle ml-4" to={"/skill"}><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
-                    <div className="row">
+                    <div className="row mt-5">
                         {
                             projectList.map((card) => {
                                 return <ProjectCard card={card} />
