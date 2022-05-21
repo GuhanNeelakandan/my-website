@@ -14,7 +14,7 @@ function Header() {
           <h1><strong>GUHAN N S</strong></h1>
           <Type
             className="type-string"
-            strings={["Full Stack Developer", "photoshop Editor", "Designer"]}
+            strings={["Full Stack Developer", "photoshop Editor"]}
             typeSpeed={60}
             backSpeed={60}
             loop />
