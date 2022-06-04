@@ -17,7 +17,7 @@ function About() {
                         <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 aboutMe">
                             <p> <h1 className="text-center text-inline">About</h1></p>
                             <p className="words">
-                            Hello, I am a highly motivated and skilled engineering graduate looking for an entry-level position as a software engineer. Strong in design and integration with intuitive problem-solving skills. Proficient in JAVASCRIPT,CSS,BOOTSTRAP,REACT Nodejs,Expressjs,MongoDB,SQL etc.,. Passionate to contribute ideas and learn new things. I am available for any kind of job opportunity that suits my interests.
+                            Hello, I am a highly motivated and skilled engineering graduate looking for an entry-level position as a software engineer. Strong in design and integration with intuitive problem-solving skills. Passionate to contribute ideas and learn new things. I am available for any kind of job opportunity that suits my interests.
                             </p>
                             
                             <div>

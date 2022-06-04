@@ -10,8 +10,8 @@ function ProjectCard(props) {
                 <h5 class="card-title"><strong>{props.card.title}</strong></h5>
                 <p class="card-text">{props.card.description}</p>
                 <p>
-                    {props.card.backend?<a href={props.card.gitLink} target="_blank" className="btn btn-dark btn-sm mx-2">Frontend</a>:<a href={props.card.webLink} target="_blank"><img className="img-fluid project-git" src={github} /></a>}
-                    {props.card.backend?<a href={props.card.weblink2} target="_blank" className="btn btn-dark btn-sm mx-2">Backend</a>:""}
+                    {props.card.backend?<a href={props.card.frontEnd} target="_blank" className="btn btn-dark btn-sm mx-2">Frontend</a>:<a href={props.card.webLink} target="_blank"><img className="img-fluid project-git" src={github} /></a>}
+                    {props.card.backend?<a href={props.card.backEnd} target="_blank" className="btn btn-dark btn-sm mx-2">Backend</a>:""}
                     <a href={props.card.webLink} target="_blank"><img className="img-fluid project-git" src={website} /></a>
                 </p>
                 <p class="card-text">{props.card.tools}</p>
