@@ -20,12 +20,6 @@ function Achievement() {
             title:"Service Advisor( Hyundai Motor Plaza & Toyota)",
             description:"Got Employee of the month Award for Appreciating my Customer Handling skills."
         },
-        {
-            month:"2 years",
-            year:"2013",
-            title:"visual Art & design",
-            description:" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie."
-        }
     ]
     return (
         <>
