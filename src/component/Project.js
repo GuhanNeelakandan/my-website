@@ -48,7 +48,7 @@ function Project() {
         },
         {
             image: Todo,
-            title: "Todo App",
+            title: "Docket App",
             description: "Just Anothoer Interactive,Nice beautiful and small to-do application (MERN),Does Everything",
             frontEnd: "https://github.com/GuhanNeelakandan/Todo_frontend",
             webLink: "https://todo-createdby-guhan.netlify.app/",
