@@ -2,6 +2,8 @@ import React from 'react'
 import smilechat from "../smilechat.png"
 import ProjectCard from './ProjectCard'
 import NeoMangement from "../NeoManagement.png"
+import hotelbooking from "../hotelbooking.png"
+import videochat from "../videoChat.png"
 import Todo from "../Todolist.png"
 import { Link } from 'react-router-dom'
 import Animated from '../Animated'
@@ -24,6 +26,24 @@ function Project() {
             frontEnd: "https://github.com/GuhanNeelakandan/Noesmile-Mangement-frontend",
             webLink: "https://neosmile-management.netlify.app/",
             backEnd: "https://github.com/GuhanNeelakandan/Neosmile-Management-Backend",
+            backend: true
+        },
+        {
+            image: hotelbooking,
+            title: "HotelBooking",
+            description: "Hotel booking application with admin control using MERN",
+            frontEnd: "https://github.com/GuhanNeelakandan/HotelBooking_FrontEnd",
+            webLink: "https://hotelbooking-app.netlify.app/",
+            backEnd: "https://github.com/GuhanNeelakandan/HotelBooking_Backend",
+            backend: true
+        },
+        {
+            image: videochat,
+            title: "Video Chat",
+            description: "Video Chat application with admin control using MERN and socket",
+            frontEnd: "https://github.com/GuhanNeelakandan/ClubHouse_FrontEnd",
+            webLink: "https://clubhouse-clone-app.netlify.app/",
+            backEnd: "https://github.com/GuhanNeelakandan/Clubhouse_backend",
             backend: true
         },
         {
