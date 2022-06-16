@@ -7,6 +7,7 @@ import videochat from "../videoChat.png"
 import Todo from "../Todolist.png"
 import { Link } from 'react-router-dom'
 import Animated from '../Animated'
+import neosmile from "../neosmile.png"
 
 function Project() {
     let projectList = [
@@ -21,8 +22,8 @@ function Project() {
         },
         {
             image: NeoMangement,
-            title: "Dental Clinic Mangement",
-            description: "Clini Management is created.CRUD Application to store patients Data everything at one place",
+            title: "Dental Clinic Mangement (MERN)",
+            description: "Clini Management Application to store patients Data everything at one place.",
             frontEnd: "https://github.com/GuhanNeelakandan/Noesmile-Mangement-frontend",
             webLink: "https://neosmile-management.netlify.app/",
             backEnd: "https://github.com/GuhanNeelakandan/Neosmile-Management-Backend",
@@ -40,7 +41,7 @@ function Project() {
         {
             image: videochat,
             title: "Video Chat",
-            description: "Video Chat application with admin control using MERN and socket",
+            description: "Video Chat application using MERN and socket",
             frontEnd: "https://github.com/GuhanNeelakandan/ClubHouse_FrontEnd",
             webLink: "https://clubhouse-clone-app.netlify.app/",
             backEnd: "https://github.com/GuhanNeelakandan/Clubhouse_backend",
@@ -54,7 +55,15 @@ function Project() {
             webLink: "https://todo-createdby-guhan.netlify.app/",
             backEnd: "https://github.com/GuhanNeelakandan/Todo_backend",
             backend: true
-        }
+        },
+        {
+            image: neosmile,
+            title: "Clinic Website",
+            description: "Website for Newly opened Clinic.",
+            frontEnd: "https://github.com/GuhanNeelakandan/Dental_website",
+            webLink: "https://neosmiledentalomr.netlify.app/",
+            backend: false
+        },
     ]
     return (
         <Animated>
