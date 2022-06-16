@@ -14,7 +14,7 @@ function Project() {
         {
             image: smilechat,
             title: "Smile-Chat",
-            description: "Chatting app using MERN",
+            description: "Chatting app using MERN and socket",
             frontEnd: "https://github.com/GuhanNeelakandan/SmileChat_frontEnd",
             backEnd: "https://github.com/GuhanNeelakandan/SmileChat_BackEnd",
             webLink: "https://smilechat-mern-app.netlify.app/",
