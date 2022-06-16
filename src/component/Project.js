@@ -12,24 +12,6 @@ import neosmile from "../neosmile.png"
 function Project() {
     let projectList = [
         {
-            image: smilechat,
-            title: "Smile-Chat",
-            description: "Chatting app using MERN and socket",
-            frontEnd: "https://github.com/GuhanNeelakandan/SmileChat_frontEnd",
-            backEnd: "https://github.com/GuhanNeelakandan/SmileChat_BackEnd",
-            webLink: "https://smilechat-mern-app.netlify.app/",
-            backend:true
-        },
-        {
-            image: NeoMangement,
-            title: "Dental Clinic Mangement (MERN)",
-            description: "Clini Management Application to store patients Data everything at one place.",
-            frontEnd: "https://github.com/GuhanNeelakandan/Noesmile-Mangement-frontend",
-            webLink: "https://neosmile-management.netlify.app/",
-            backEnd: "https://github.com/GuhanNeelakandan/Neosmile-Management-Backend",
-            backend: true
-        },
-        {
             image: hotelbooking,
             title: "HotelBooking",
             description: "Hotel booking application with admin control using MERN",
@@ -37,6 +19,15 @@ function Project() {
             webLink: "https://hotelbooking-app.netlify.app/",
             backEnd: "https://github.com/GuhanNeelakandan/HotelBooking_Backend",
             backend: true
+        },
+        {
+            image: smilechat,
+            title: "Smile-Chat",
+            description: "Chatting app using MERN and socket",
+            frontEnd: "https://github.com/GuhanNeelakandan/SmileChat_frontEnd",
+            backEnd: "https://github.com/GuhanNeelakandan/SmileChat_BackEnd",
+            webLink: "https://smilechat-mern-app.netlify.app/",
+            backend:true
         },
         {
             image: videochat,
@@ -57,6 +48,15 @@ function Project() {
             backend: true
         },
         {
+            image: NeoMangement,
+            title: "Dental Clinic Mangement (MERN)",
+            description: "Clini Management Application to store patients Data everything at one place.",
+            frontEnd: "https://github.com/GuhanNeelakandan/Noesmile-Mangement-frontend",
+            webLink: "https://neosmile-management.netlify.app/",
+            backEnd: "https://github.com/GuhanNeelakandan/Neosmile-Management-Backend",
+            backend: true
+        },
+        {
             image: neosmile,
             title: "Clinic Website",
             description: "Website for Newly opened Clinic.",
@@ -71,6 +71,11 @@ function Project() {
                 <h4 className="text-center mt-4 fs-1">Project</h4>
             </div>
             <div className="container project">
+                <div className='text-center'>
+                    Creditials:
+                    <div>Username / Email : test / test@gmail.com</div>
+                    <div>Password: 12345678</div>
+                </div>
                 <div className="next-page">
                     <Link className="btn btn-dark rounded-circle ml-4" to={"/skill"}><i class="fa fa-arrow-left" aria-hidden="true"></i></Link>
                     <div className="row mt-5">
