@@ -46,25 +46,25 @@ function Skill() {
         image: react,
         title: "React",
         bar:"react",
-        percentage:"85%"
+        percentage:"95%"
       },
       {
         image: node,
         title: "NodeJs",
         bar:"node",
-        percentage:"75%"
+        percentage:"95%"
       },
       {
         image: express,
         title: "Express",
         bar:"node",
-        percentage:"75%"
+        percentage:"80%"
       },
       {
         image: mongo,
         title: "MongoDb",
         bar:"mongodb",
-        percentage:"75%"
+        percentage:"80%"
       },
       {
         image: sql,
@@ -76,7 +76,7 @@ function Skill() {
         image: github,
         title: "GitHub",
         bar:"github",
-        percentage:"65%"
+        percentage:"75%"
       },
       {
         image: photoshop,

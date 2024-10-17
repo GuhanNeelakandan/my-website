@@ -14,7 +14,7 @@ function Header() {
           <div className='typewriter mt-4'>
           <h1>FULL STACK DEVELOPER.</h1>
           </div>
-          <a href="https://drive.google.com/file/d/19NbQedincGlwvjg3G5AhMrtydTlxyqEr/view?usp=sharing" target="_blank" className="btn-main-offer">Get Resume <img className='icon' src={Download} style={{width:"20px", height:"20px"}}/> </a>
+          <a href="https://drive.google.com/file/d/1E4I2UnD_2nZLLbPP-UwvmBtUWmu8zOdw/view?usp=sharing" target="_blank" className="btn-main-offer">Get Resume <img className='icon' src={Download} style={{width:"20px", height:"20px"}}/> </a>
           <Link class="btn btn-dark  mt-4 btns" to={"/about"} role="button">About me  <i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
         </div>
       </div>

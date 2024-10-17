@@ -1,5 +1,5 @@
 import React from 'react'
-import me from "../me.png"
+import me from "../profile.jpg"
 import Animated from "../Animated";
 import { Link } from 'react-router-dom';
 import Call from "../call.gif"
@@ -11,14 +11,13 @@ function About() {
                 <div className="container about">
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 image">
-                            <img className="img-fluid rounded float-center img" src={me} alt="profile pic"
-                                style={{ width: "60%", margin: "20px 20px" }} />
+                            <img className="img" src={me} alt="profile pic"
+                               />
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 aboutMe">
                             <p> <h1 className="text-center text-inline">About</h1></p>
                             <p className="words">
-                            Hello, I am a highly motivated and skilled engineering graduate looking for an entry-level position as a software engineer. Strong in design and integration with intuitive problem-solving skills. Passionate to contribute ideas and learn new things. I am available for any kind of job opportunity that suits my interests.
-                            </p>
+                            I am a dedicated and results-driven Full-Stack Developer with 2.4 years of hands-on experience in the MERN stack (MongoDB, Express.js, React, Node.js). I excel at designing and developing robust, scalable web applications, focusing on delivering seamless user experiences. My expertise spans both front-end and back-end development, from creating responsive, visually appealing interfaces to implementing efficient server-side logic and databases. I am committed to writing clean, maintainable code and continuously improving my skills to stay at the forefront of technology. With a passion for problem-solving and innovation, I take pride in bringing creative ideas to life while ensuring high performance and security in every project.</p>
                             
                             <div>
                                 <Link class="btn btn-dark mt-4 btn-s" to={"/contact"} role="button">Contact Me <img src={Call} style={{width:"20px", height:"20px"}}/> </Link>

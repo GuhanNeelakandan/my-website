@@ -20,6 +20,18 @@ function Achievement() {
             title:"Service Advisor( Hyundai Motor Plaza & Toyota)",
             description:"Got Employee of the month Award for Appreciating my Customer Handling skills."
         },
+        {
+            month:"July",
+            year:"2024",
+            title:"Completed Einstro Study Abroad Website",
+            description:"Successfully developed a dynamic and responsive web application for Einstro Study Abroad, facilitating student exploration and application for study programs. This project underscores my expertise in creating user-centric solutions that enhance user experience and accessibility."
+        },
+        {
+            month:"Aug",
+            year:"2024",
+            title:"Completed Neosmile Dental OMR Website",
+            description:"Successfully delivered a responsive and user-friendly website for Neosmile Dental OMR, showcasing their services and team. This project highlights my ability to build engaging, functional websites that meet client needs."
+        },
     ]
     return (
         <>

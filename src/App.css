@@ -124,11 +124,17 @@ canvas{
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   border-radius: 20px;
+  transition: 1s ease-in-out;
+  width: 60%;
+  height: 500px;
+  margin: 20px;
+  object-fit: cover;
 }
 .img:hover{
   filter: grayscale(0%);
   transform: scale(1.1);
   box-shadow: 10px 10px 5px rgb(0, 0, 0,0.3);
+  transition: 1s ease-in-out;
 
 }
 .image{
@@ -261,16 +267,16 @@ canvas{
   width:75%
 }
 .react{
-  width:85%
+  width:95%
 }
 .node{
-  width:75%
+  width:95%
 }
 .express{
-  width:70%
+  width:80%
 }
 .mongodb{
-  width:75%
+  width:80%
 }
 .photshop{
   width:65%
@@ -279,7 +285,7 @@ canvas{
   width: 65%;
 }
 .github{
-  width:65%
+  width:75%
 }
 
 
